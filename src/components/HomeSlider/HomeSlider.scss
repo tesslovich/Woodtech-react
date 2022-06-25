@@ -1,0 +1,160 @@
+@import '../../general/variables.scss';
+
+.home-slider {
+	position: relative;
+	height: 100vh;
+	min-height: 580px;
+	max-height: 720px;
+	color: #fff;
+	background-color: $backgroundBlack;
+}
+
+
+.slide__bg {
+	position: absolute;
+}
+
+
+.home-slider__slide {
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	padding: 0 10px;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: $backgroundBlack;
+		opacity: .15;
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		right: 10px;
+		bottom: 10px;
+		z-index: 1;
+		box-shadow: 0 0 0 30px $backgroundBlack;
+		border-radius: $radius;
+	}
+}
+
+
+.swiper-slide.swiper-slide-active {
+	transition-delay: .3s;
+}
+
+
+.swiper {
+	height: 100%;
+}
+
+
+.continer__wrapper {
+	position: relative;
+	margin-left: 60px;
+}
+
+
+.home-slider__heading {
+	font-size: 58px;
+	line-height: .8;
+	font-weight: 300;
+	margin-bottom: 40px;
+
+	@media (max-width:576px) {
+		font-size: 40px;
+	}
+}
+
+
+.home-slider__heading span {
+	font-size: 16px;
+	background-color: $accent;
+	padding: 6px 16px 7px;
+	border-radius: $radius-style;
+	font-weight: 500;
+}
+
+
+.home-slider__text {
+	font-size: 14px;
+	background-color: rgba(32, 35, 40, 0.9);
+	border-radius: 0 calc($radius * 2);
+	padding: 15px 22px;
+	max-width: 440px;
+}
+
+
+.home-slider__bottom {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	max-width: 440px;
+	background-color: $backgroundBlack;
+	z-index: 1;
+	right: 0;
+	border-radius: $radius 0 0 0;
+	padding: 45px 40px 45px 15px;
+	font-size: 12px;
+	color: #59606C;
+}
+
+
+.home-slider__pagination {
+	width: auto;
+	font-family: 'roboto', 'sans-serif';
+	font-weight: 300;
+}
+
+
+.home-slider__pagination span {
+	width: 1px;
+	height: 28px;
+	background-color: #353941;
+	display: inline-block;
+	vertical-align: middle;
+	margin: -8px 13px 0;
+}
+
+
+.home-slider__pagination b {
+	font-size: 15px;
+	color: #818B9D;
+	font-weight: 300;
+}
+
+
+.swiper-button__wrapper {
+	position: relative;
+	margin-top: 11px;
+}
+
+
+.home-slider__scrollbar {
+	height: 5px;
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+	outline: none;
+	width: auto !important;
+}
+
+
+.swiper-button__wrapper .swiper-button-prev::after {
+	font-size: 14px;
+	color: #818B9D;
+}
+
+.swiper-button__wrapper .swiper-button-next::after {
+	font-size: 14px;
+	color: #818B9D;
+}

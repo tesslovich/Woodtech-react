@@ -1,0 +1,10 @@
+.our-projects__wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	overflow: hidden;
+}
+
+
+.our-projects__item {
+	text-align: center;
+}

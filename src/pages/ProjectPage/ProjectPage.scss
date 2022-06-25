@@ -1,0 +1,73 @@
+@import '../../general/variables.scss';
+
+
+.project-page__nav {
+	margin-top: 70px;
+	margin-bottom: 25px;
+}
+
+
+.project-page__nav-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline;
+
+	@media(max-width:768px) {
+		font-size: 12px;
+		margin: 0 10px 10px;
+	}
+}
+
+
+.project-page__nav-item {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+
+.project-page__nav-link {
+	position: relative;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16px;
+	color: #CCCCCC;
+
+	&:hover {
+		color: #CCCCCC;
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		border: solid #CCCCCC;
+		border-width: 0 1.5px 1.5px 0;
+		display: inline-block;
+		padding: 3px;
+		transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		bottom: 2px;
+		right: -10px;
+	}
+}
+
+
+.project-page__nav-link--active {
+	font-weight: 700;
+	text-decoration: none;
+	color: #888888;
+
+	&:hover {
+		color: #888888;
+	}
+}
+
+
+.project-page--adress {
+	display: inline-block;
+
+	@media(max-width:768px) {
+		padding: 0;
+		margin: 0 10px;
+	}
+}

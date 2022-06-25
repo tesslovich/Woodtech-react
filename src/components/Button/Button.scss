@@ -1,0 +1,27 @@
+@import '../../general/variables.scss';
+
+.button {
+	outline: none;
+	border: none;
+	padding: 10px 25px;
+	background-color: $accent;
+	color: $white;
+	border-radius: $radius-style;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	position: relative;
+	letter-spacing: .5px;
+	font-family: 'Raleway', 'sans-serif';
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: none;
+		color: $white;
+		background-color: $accent-light;
+	}
+	&:active {
+		background-color: $accent-dark;
+	}
+}

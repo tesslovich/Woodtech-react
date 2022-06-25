@@ -1,0 +1,61 @@
+@import '../../general/variables.scss';
+
+
+.company-partners__wrapper {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+
+.company-partners__title {
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 35px;
+	color: $text;
+	margin-bottom: 45px;
+}
+
+
+.company-partners__wrapper--img {
+	display: block;
+	background-color: $dark;
+	margin-right: 20px;
+	width: 160px;
+	height: 90px;
+	display: flex;
+	align-items: center;
+
+	@media(max-width:768px) {
+		display: none;
+	}
+}
+
+
+.company-partners--img {
+	width: 130px;
+	padding: 28px 10px;
+}
+
+
+.company-partners__item-title {
+	font-weight: 800;
+	font-size: 22px;
+	line-height: 26px;
+	color: #F88500;
+}
+
+
+.company-partners__item-title p {
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 170%;
+	color: $text;
+	margin-top: 10px;
+
+	@media(max-width:768px) {
+			font-size: 14px;
+			line-height: 18px;
+	}
+}

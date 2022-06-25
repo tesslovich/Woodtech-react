@@ -1,0 +1,35 @@
+@import '../../general/variables.scss';
+
+
+.our-partners {
+	position: relative;
+	background-color: $dark;
+	min-height: 383px;
+	font-family: 'Raleway', 'sans-serif';
+}
+
+
+.our-partners__wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.our-partners__bg {
+	width: 100%;
+	height: 100%;
+	opacity: .2;
+}
+
+
+.our-partners__title {
+	color: $white;
+	font-weight: 800;
+	font-size: 29px;
+	text-align: center;
+	margin: 0;
+	padding-top: 70px;
+	margin-bottom: 45px;
+}

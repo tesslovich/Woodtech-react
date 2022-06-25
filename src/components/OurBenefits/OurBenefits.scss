@@ -1,0 +1,52 @@
+@import '../../general/variables.scss';
+
+.our-benefit__item {
+	text-align: center;
+	position: relative;
+	padding-bottom: 40px;
+	border-bottom: 1px solid $light-div;
+	margin-top: 15px;
+}
+
+
+.our-benefit__icon {
+	margin-bottom: 20px;
+}
+
+
+.our-benefit__item-heading {
+	text-decoration: none;
+	font-weight: 800;
+	font-size: 19px;
+	line-height: 22px;
+	color: $text;
+	margin-bottom: 12px;
+
+	&:hover {
+		color: #F88500;
+		text-decoration: underline;
+	}
+
+	@media(max-width:1200px) {
+		font-size: 18px;
+	}
+}
+
+
+
+.our-benefit__heading--text {
+	margin-bottom: 12px;
+}
+
+
+.our-benefit__desc {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 170%;
+	color: $text;
+	margin-bottom: 15px;
+
+	@media(max-width:1200px) {
+		line-height: 18px;
+	}
+}

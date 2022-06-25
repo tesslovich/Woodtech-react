@@ -1,0 +1,37 @@
+@import '../../general/variables.scss';
+
+
+.about-company {
+	display: block;
+}
+
+
+.about-company__title {
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 35px;
+	color: $text;
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+
+.about-company__desc {
+	display: block;
+	margin: 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 170%;
+	color: #000000;
+	margin-bottom: 35px;
+
+	@media(max-width:768px) {
+		line-height: 22px;
+	}
+}
+
+
+.about-company__img {
+	width: 100%;
+	margin-bottom: 35px;
+}
