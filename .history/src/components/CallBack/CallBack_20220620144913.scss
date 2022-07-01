@@ -1,0 +1,88 @@
+@import '../../general/variables.scss';
+
+.call-back {
+	text-align: center;
+}
+
+
+.call-back__form {
+	margin-bottom: 70px;
+}
+
+
+.call-back__form-title {
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 28px;
+	color: $text;
+	margin-bottom: 25px;
+}
+
+
+.call-back__desc {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 170%;
+	color: #999999;
+	margin-bottom: 50px;
+}
+
+
+.form {
+	display: flex;
+	flex-direction: column;
+	max-width: 360px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+
+.form input {
+	border-radius: $radius-style;
+	border: 1px solid #E4E6E8;
+
+	&:hover {
+		border: 1px solid $accent;
+	}
+}
+
+
+.form textarea {
+	&:hover {
+		border: 1px solid $accent;
+	}
+}
+
+
+.call-back__map {
+	background-color: $dark;
+	padding: 70px 0 100px 0;
+}
+
+
+.call-back__map-title {
+	font-weight: 800;
+	font-size: 29px;
+	line-height: 34px;
+	color: $white;
+	margin-bottom: 30px;
+}
+
+
+.map__wrapper {
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+
+.callback--phone {
+	margin-top: 15px;
+	display: block;
+}
+
+
+.map-container {
+	height: 100%;
+}
