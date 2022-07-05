@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './Projects.scss';
 import ourProjectsData from '../../config/ourProjectsData';
 import PageTitle from '../../components/PageTitle/PageTitle';

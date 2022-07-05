@@ -30,7 +30,7 @@ function Advantages(props) {
 								{data.map((slide) => {
 									return (
 										<SwiperSlide>
-											<img className="slide-advantages__bg" src={slide.src}></img>
+											<img className="slide-advantages__bg" src={slide.src} alt='2'></img>
 											<div className="advantages-slide__caption">{slide.number}<span>{slide.textOne} <br />{slide.textTwo} </span></div>
 										</SwiperSlide>
 									)
