@@ -55,13 +55,13 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/tesslovich/woodtech-react.git"
+		"url": "git+https://github.com/tesslovich/Woodtech-react.git"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/tesslovich/woodtech-react/issues"
+		"url": "https://github.com/tesslovich/Woodtech-react/issues"
 	},
 	"overrides": {
 		"autoprefixer": "10.4.5"
