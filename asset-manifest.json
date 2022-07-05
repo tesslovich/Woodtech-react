@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/woodtech-react/static/css/main.a8b3c7c9.css",
-    "main.js": "/woodtech-react/static/js/main.97e1068f.js",
+    "main.js": "/woodtech-react/static/js/main.2dad6036.js",
     "static/media/instagram-brands.svg": "/woodtech-react/static/media/instagram-brands.672d0ebf9b770f0912ff6e334ffb4892.svg",
     "static/media/twitter-brands.svg": "/woodtech-react/static/media/twitter-brands.f9eb71e46f676fabfc99197c9f7512cf.svg",
     "static/media/vk.svg": "/woodtech-react/static/media/vk.ca47f2c167420b42df2ada5b6e9f5f0a.svg",
@@ -14,10 +14,10 @@
     "static/media/ellipse-accent.svg": "/woodtech-react/static/media/ellipse-accent.3606c07eccfdee4bf8e0.svg",
     "static/media/triangle-white.svg": "/woodtech-react/static/media/triangle-white.1ea9b73ff09b31127233.svg",
     "main.a8b3c7c9.css.map": "/woodtech-react/static/css/main.a8b3c7c9.css.map",
-    "main.97e1068f.js.map": "/woodtech-react/static/js/main.97e1068f.js.map"
+    "main.2dad6036.js.map": "/woodtech-react/static/js/main.2dad6036.js.map"
   },
   "entrypoints": [
     "static/css/main.a8b3c7c9.css",
-    "static/js/main.97e1068f.js"
+    "static/js/main.2dad6036.js"
   ]
 }
