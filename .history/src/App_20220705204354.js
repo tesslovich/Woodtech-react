@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
-import { Routes, Route, Router } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from './pages/HomePage/Home';
 import Projects from './pages/ProjectsPage/Projects';
 import Services from './pages/ServicesPage/Services';
