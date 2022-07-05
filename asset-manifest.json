@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/woodtech-react/static/css/main.a8b3c7c9.css",
+    "main.js": "/woodtech-react/static/js/main.97e1068f.js",
+    "static/media/instagram-brands.svg": "/woodtech-react/static/media/instagram-brands.672d0ebf9b770f0912ff6e334ffb4892.svg",
+    "static/media/twitter-brands.svg": "/woodtech-react/static/media/twitter-brands.f9eb71e46f676fabfc99197c9f7512cf.svg",
+    "static/media/vk.svg": "/woodtech-react/static/media/vk.ca47f2c167420b42df2ada5b6e9f5f0a.svg",
+    "static/media/ellipse-gray.svg": "/woodtech-react/static/media/ellipse-gray.13c2ae7e8bf1efa04773.svg",
+    "index.html": "/woodtech-react/index.html",
+    "static/media/mapmarker.svg": "/woodtech-react/static/media/mapmarker.3414595a67dcd8c98aa3.svg",
+    "static/media/menuWhite.svg": "/woodtech-react/static/media/menuWhite.ed0f927568c7324b831270f33061628e.svg",
+    "static/media/facebook-brands.svg": "/woodtech-react/static/media/facebook-brands.55306b6c1d729906a3aa983b22e16ced.svg",
+    "static/media/closeMenu.svg": "/woodtech-react/static/media/closeMenu.1a32a2cd754b2cbdc338357e5db60a04.svg",
+    "static/media/ellipse-accent.svg": "/woodtech-react/static/media/ellipse-accent.3606c07eccfdee4bf8e0.svg",
+    "static/media/triangle-white.svg": "/woodtech-react/static/media/triangle-white.1ea9b73ff09b31127233.svg",
+    "main.a8b3c7c9.css.map": "/woodtech-react/static/css/main.a8b3c7c9.css.map",
+    "main.97e1068f.js.map": "/woodtech-react/static/js/main.97e1068f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8b3c7c9.css",
+    "static/js/main.97e1068f.js"
+  ]
+}
